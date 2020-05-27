@@ -1,11 +1,12 @@
 <?php
 
-namespace Spatie\WebhookClient\Models;
+namespace Medspec\WebhookClient\Models;
 
 use Exception;
-use Illuminate\Database\Eloquent\Model;
+// use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Illuminate\Http\Request;
-use Spatie\WebhookClient\WebhookConfig;
+use Medspec\WebhookClient\WebhookConfig;
 
 class WebhookCall extends Model
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\WebhookClient\SignatureValidator;
+namespace Medspec\WebhookClient\SignatureValidator;
 
 use Illuminate\Http\Request;
-use Spatie\WebhookClient\WebhookConfig;
+use Medspec\WebhookClient\WebhookConfig;
 
 interface SignatureValidator
 {

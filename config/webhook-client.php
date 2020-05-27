@@ -23,30 +23,30 @@ return [
             /*
              *  This class will verify that the content of the signature header is valid.
              *
-             * It should implement \Spatie\WebhookClient\SignatureValidator\SignatureValidator
+             * It should implement \Medspec\WebhookClient\SignatureValidator\SignatureValidator
              */
-            'signature_validator' => \Spatie\WebhookClient\SignatureValidator\DefaultSignatureValidator::class,
+            'signature_validator' => \Medspec\WebhookClient\SignatureValidator\DefaultSignatureValidator::class,
 
             /*
              * This class determines if the webhook call should be stored and processed.
              */
-            'webhook_profile' => \Spatie\WebhookClient\WebhookProfile\ProcessEverythingWebhookProfile::class,
+            'webhook_profile' => \Medspec\WebhookClient\WebhookProfile\ProcessEverythingWebhookProfile::class,
 
             /*
              * This class determines the response on a valid webhook call.
              */
-            'webhook_response' => \Spatie\WebhookClient\WebhookResponse\DefaultRespondsTo::class,
+            'webhook_response' => \Medspec\WebhookClient\WebhookResponse\DefaultRespondsTo::class,
 
             /*
              * The classname of the model to be used to store call. The class should be equal
-             * or extend Spatie\WebhookClient\Models\WebhookCall.
+             * or extend Medspec\WebhookClient\Models\WebhookCall.
              */
-            'webhook_model' => \Spatie\WebhookClient\Models\WebhookCall::class,
+            'webhook_model' => \Medspec\WebhookClient\Models\WebhookCall::class,
 
             /*
              * The class name of the job that will process the webhook request.
              *
-             * This should be set to a class that extends \Spatie\WebhookClient\ProcessWebhookJob.
+             * This should be set to a class that extends \Medspec\WebhookClient\ProcessWebhookJob.
              */
             'process_webhook_job' => '',
         ],

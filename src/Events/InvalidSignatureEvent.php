@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\WebhookClient\Events;
+namespace Medspec\WebhookClient\Events;
 
 use Illuminate\Http\Request;
 

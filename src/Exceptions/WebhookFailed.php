@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\WebhookClient\Exceptions;
+namespace Medspec\WebhookClient\Exceptions;
 
 use Exception;
 

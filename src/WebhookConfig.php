@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\WebhookClient;
+namespace Medspec\WebhookClient;
 
-use Spatie\WebhookClient\Exceptions\InvalidConfig;
-use Spatie\WebhookClient\SignatureValidator\SignatureValidator;
-use Spatie\WebhookClient\WebhookProfile\WebhookProfile;
-use Spatie\WebhookClient\WebhookResponse\DefaultRespondsTo;
-use Spatie\WebhookClient\WebhookResponse\RespondsToWebhook;
+use Medspec\WebhookClient\Exceptions\InvalidConfig;
+use Medspec\WebhookClient\SignatureValidator\SignatureValidator;
+use Medspec\WebhookClient\WebhookProfile\WebhookProfile;
+use Medspec\WebhookClient\WebhookResponse\DefaultRespondsTo;
+use Medspec\WebhookClient\WebhookResponse\RespondsToWebhook;
 
 class WebhookConfig
 {

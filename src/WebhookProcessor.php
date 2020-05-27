@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\WebhookClient;
+namespace Medspec\WebhookClient;
 
 use Exception;
 use Illuminate\Http\Request;
-use Spatie\WebhookClient\Events\InvalidSignatureEvent;
-use Spatie\WebhookClient\Exceptions\WebhookFailed;
-use Spatie\WebhookClient\Models\WebhookCall;
+use Medspec\WebhookClient\Events\InvalidSignatureEvent;
+use Medspec\WebhookClient\Exceptions\WebhookFailed;
+use Medspec\WebhookClient\Models\WebhookCall;
 
 class WebhookProcessor
 {

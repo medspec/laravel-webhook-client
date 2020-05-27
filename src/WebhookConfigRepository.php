@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\WebhookClient;
+namespace Medspec\WebhookClient;
 
 class WebhookConfigRepository
 {
-    /** @var \Spatie\WebhookClient\WebhookConfig[] */
+    /** @var \Medspec\WebhookClient\WebhookConfig[] */
     protected array $configs;
 
     public function addConfig(WebhookConfig $webhookConfig)

@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\WebhookClient\SignatureValidator;
+namespace Medspec\WebhookClient\SignatureValidator;
 
 use Illuminate\Http\Request;
-use Spatie\WebhookClient\Exceptions\WebhookFailed;
-use Spatie\WebhookClient\WebhookConfig;
+use Medspec\WebhookClient\Exceptions\WebhookFailed;
+use Medspec\WebhookClient\WebhookConfig;
 
 class DefaultSignatureValidator implements SignatureValidator
 {

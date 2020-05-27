@@ -1,22 +1,23 @@
 {
-    "name": "spatie/laravel-webhook-client",
+    "name": "Medspec/laravel-webhook-client",
     "description": "Receive webhooks in Laravel apps",
     "keywords": [
-        "spatie",
+        "medspec",
         "laravel-webhook-client"
     ],
-    "homepage": "https://github.com/spatie/laravel-webhook-client",
+    "homepage": "https://github.com/medspec/laravel-webhook-client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Tycho Huisman",
+            "email": "tycho@mediaspectrum.nl",
+            "homepage": "https://mediaspectrum.nl",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^7.4",
+        "jenssegers/mongodb": "dev-develop",
         "illuminate/bus": "^6.0|^7.0",
         "illuminate/database": "^6.0|^7.0",
         "illuminate/support": "^6.0|^7.0"
@@ -27,12 +28,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\WebhookClient\\": "src"
+            "Medspec\\WebhookClient\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\WebhookClient\\Tests\\": "tests"
+            "Medspec\\WebhookClient\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +47,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\WebhookClient\\WebhookClientServiceProvider"
+                "Medspec\\WebhookClient\\WebhookClientServiceProvider"
             ]
         }
     },

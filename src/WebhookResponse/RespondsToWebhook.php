@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\WebhookClient\WebhookResponse;
+namespace Medspec\WebhookClient\WebhookResponse;
 
 use Illuminate\Http\Request;
-use Spatie\WebhookClient\WebhookConfig;
+use Medspec\WebhookClient\WebhookConfig;
 use Symfony\Component\HttpFoundation\Response;
 
 interface RespondsToWebhook
