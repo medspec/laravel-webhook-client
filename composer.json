@@ -1,5 +1,5 @@
 {
-    "name": "Medspec/laravel-webhook-client",
+    "name": "medspec/laravel-webhook-client",
     "description": "Receive webhooks in Laravel apps",
     "keywords": [
         "medspec",
